@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling form</title>
+</head>
+<body>
+    <nav>
+        <a href="">
+            <img src="logo.png" alt="logo" height="100">
+        </a>
+        </table>
+            <table bgcolor="Aquamarine" border="1">    
+            <tr>   
+                <td>
+                <h3>
+                <a href="#">Home Page</a> 
+                </h3>
+            </td>
+            
+            <td>
+                <h3><a href="https://www.google.com/" target="_blank">Products</a></h3> 
+            </td>
+            
+            <td>
+                <h3><a href="https://www.facebook.com/" target="_blank">Contact here</a></h3>
+            </td>
+            
+            <td>
+                <h3><a href="../">About</a></h3>
+            </td>
+            </tr>
+            </table>
+    </nav>
+
+    <center>
+        <h1>ORDER FORM</h1>
+    </center>
+    <hr color="green">
+        <form>
+            <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Enter your name:</label><br>
+            <input id="name"><br>
+            <label for="age">Enter your birthday</label><br>
+            <input type="date" id="age"><br>
+            <label for="location">Enter your address here:</label><br>
+            <input id="location"><br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Order information</legend>
+                <label for="item">Item</label>
+                <select name="item" id="item">
+                    <option value="1">Main 1</option>
+                    <option value="2">Main 2</option>
+                    <option value="3">Main 3</option>
+                    <option value="4">CPU 1</option>
+                    <option value="5">CPU 2</option>
+                    <option value="6">CPU 3</option>
+                    <option value="7">GPU 1</option>
+                    <option value="8">GPU 2</option>
+                    <option value="9">GPU 3</option>
+                </select>
+                <br>
+                <label for="quantity">Quantity</label><br>
+                <input name="quantity" id="quantity" required>
+            </fieldset>
+        </form>
+</body>
+</html>
